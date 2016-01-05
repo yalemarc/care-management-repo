@@ -348,7 +348,7 @@
    ======================================*/
 
   gulp.task('build', function (done) {
-    var tasks = ['html', 'fonts', 'images', 'js', 'assets', 'sass', 'favicon', 'version'];
+    var tasks = ['html', 'fonts',  'js', 'assets',   'favicon', 'version'];
     seq('clean', tasks, done);
   });
 
